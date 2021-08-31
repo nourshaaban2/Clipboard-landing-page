@@ -1,0 +1,448 @@
+/* Start global rules */
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+:root {
+  --primary-cyan: hsl(171, 66%, 44%);
+  --primary-blue: hsl(233, 100%, 69%);
+  --headings-color: hsl(210, 10%, 33%);
+  --par-color: hsl(201, 11%, 66%);
+}
+.copy-icon {
+  color: var(--primary-cyan);
+  font-size: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sec-head {
+  font-size: 40px;
+  color: var(--headings-color);
+  margin-bottom: 15px;
+  text-align: center;
+  /* margin: 0 auto 15px; */
+  /* display: flex;
+  justify-content: center; */
+}
+.sec-par {
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.6;
+  width: 50%;
+  margin: 0 auto 15px;
+  color: var(--par-color);
+}
+button {
+  text-align: center;
+  padding: 18px;
+  width: 250px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-left: 30px;
+  color: #fff;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 300ms;
+  font-weight: 400;
+}
+.ios {
+  background-color: var(--primary-cyan);
+  box-shadow: 2px 5px 14px hsl(171deg 66% 44% / 40%);
+}
+.ios:hover {
+  background-color: hsl(171, 66%, 44%, 0.7);
+}
+.mac {
+  background-color: var(--primary-blue);
+  box-shadow: 2px 5px 14px hsl(233deg 100% 69%/ 40%);
+}
+.mac:hover {
+  background-color: hsl(233, 100%, 69%, 0.7);
+}
+/* End global rules */
+/* Start Header rules */
+.header1 {
+  text-align: center;
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: 100% 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  width: 100%;
+  margin: 0 0;
+}
+.header-info {
+  text-align: center;
+  width: 90%;
+  margin: 20px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-info h1 {
+  margin-bottom: 15px;
+  font-size: 50px;
+  color: var(--headings-color);
+}
+.header-info p {
+  color: var(--par-color);
+  font-size: 23px;
+  margin: 5px auto;
+  line-height: 1.6;
+}
+.download {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End Header rules */
+/* Start Section Keep Track */
+.keep-track {
+  margin-top: 150px;
+}
+.keep-track header {
+  text-align: center;
+  margin: 20px auto;
+}
+.keep-track header .sec-head {
+  font-size: 40px;
+  color: var(--headings-color);
+  margin-bottom: 15px;
+  text-align: center;
+  margin: 0 auto 15px;
+}
+.keep-track header .sec-par {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.6;
+  width: 50%;
+  margin: 0 auto 15px;
+  color: var(--par-color);
+}
+.keep-track main {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 80px auto;
+  width: 90%;
+}
+.keep-track main .img {
+  width: 90%;
+}
+.keep-track main .img img {
+  width: 90%;
+  height: 90%;
+  margin-left: 3%;
+}
+.keep-track main .small-div {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.keep-track main .small-div .small-sec {
+  margin: 20px 0 30px 10px;
+  width: 100%;
+  height: 100%;
+}
+.keep-track main .small-div .small-sec h3 {
+  margin-bottom: 8px;
+  color: var(--headings-color);
+  font-size: 28px;
+  font-weight: 600;
+}
+.keep-track main .small-div .small-sec p {
+  color: var(--par-color);
+  font-size: 22px;
+  line-height: 2;
+  width: 80%;
+}
+/* End Section Keep Track */
+/* Start Section Access clipboard */
+.access-clipboard .img {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+/* End Section Access clipboard */
+/* Start Section Super Charge Your Workflow */
+.super-charge main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.super-charge main div {
+  width: 30%;
+  margin: 40px auto 0;
+}
+.super-charge main div img {
+  font-size: 45px;
+  color: var(--par-color);
+  margin: 30px 0;
+}
+.super-charge main div h3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: var(--headings-color);
+}
+.super-charge main div p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--par-color);
+  line-height: 1.6;
+}
+/* End Section Super Charge Your Workflow */
+/* Start Section Logos */
+.logos {
+  margin: 150px auto 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logos img {
+  width: 12%;
+  height: 100%;
+}
+/* End Section Logos */
+/* Start Section clipboard */
+.clip .sec-par {
+  width: 60%;
+  margin: 20px auto;
+}
+/* End Section clipboard */
+/* Start first Footer */
+.first-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #eee;
+  padding: 10px;
+  margin-top: 100px;
+}
+.first-foot .copy-icon {
+  font-size: 100px;
+}
+.first-foot nav {
+  display: flex;
+  width: 40%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.first-foot nav a {
+  font-size: 20px;
+  color: var(--headings-color);
+  text-decoration: none;
+  margin: 10px;
+  width: 30%;
+  transition: 0.4s;
+}
+.first-foot .socials a {
+  margin-left: 25px;
+}
+.first-foot nav a:hover {
+  color: hsl(171, 66%, 44%);
+  font-size: 1.5em;
+}
+/* End first Footer */
+/* Start last Footer */
+.last {
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+}
+.last a {
+  text-decoration: none;
+  color: var(--primary-cyan);
+  font-size: 18px;
+  margin: 2px;
+}
+.last a:hover {
+  text-decoration: underline;
+}
+/* End last Footer */
+/* Start Responsive */
+@media screen and (max-width: 400px) {
+  /* global mobile style */
+  .container {
+    width: 100%;
+    margin: 5px auto;
+  }
+  .download {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 88%;
+    margin: 5px auto;
+  }
+  .download .mac,
+  .ios {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .sec-head {
+    font-size: 30px;
+    margin: 0 auto;
+  }
+  .sec-par {
+    font-size: 18px;
+    margin: 0 auto;
+    width: 100%;
+    margin: 5px auto;
+    line-height: 1.4;
+  }
+  /* global mobile style end */
+  .header1 {
+    width: 100%;
+  }
+  .header1 .header-info {
+    width: 90%;
+    margin: 5px auto;
+  }
+  .header-info h1 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    width: 100%;
+    color: var(--headings-color);
+  }
+  .header-info p {
+    width: 90%;
+    margin: 5px auto;
+    line-height: 1.4;
+    font-size: 20px;
+  }
+  .keep-track main {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .keep-track .img {
+    width: 100%;
+  }
+  .keep-track img {
+    width: 100%;
+  }
+  .keep-track header .sec-par {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    width: 90%;
+    margin: 0 auto 15px;
+    color: var(--par-color);
+  }
+  .keep-track main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .keep-track main .small-div .small-sec {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .keep-track main .small-div .small-sec h3 {
+    margin-bottom: 8px;
+    color: var(--headings-color);
+    font-size: 25px;
+    font-weight: 600;
+    margin: 5px auto;
+  }
+  .keep-track main .small-div .small-sec p {
+    color: var(--par-color);
+    font-size: 18px;
+    line-height: 1.6;
+    width: 100%;
+    margin: 5px auto;
+    text-align: center;
+  }
+  .access-clipboard {
+    margin-top: 150px;
+  }
+  .access-clipboard .img img {
+    width: 100%;
+  }
+  .super-charge {
+    margin-top: 100px;
+  }
+  .super-charge main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+  .super-charge main div {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .super-charge main div p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .super-charge main div h3 {
+    width: 100%;
+    font-size: 25px;
+  }
+  .logos {
+    margin: 100px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+  .logos img {
+    width: 70%;
+    margin: 30px;
+  }
+  .clip {
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+  .clip .sec-head {
+    font-size: 27spx;
+    width: 80%;
+  }
+  .clip .sec-par {
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+  }
+  .first-foot {
+    flex-flow: column wrap;
+  }
+  .first-foot .copy-icon {
+    font-size: 80px;
+    text-align: center;
+  }
+  .first-foot nav {
+    flex-flow: column wrap;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .first-foot nav a {
+    width: 100%;
+  }
+}
+/* End Responsive */
